@@ -1,5 +1,5 @@
-import type { Module } from "@/components/atoms/baseShadcn/ModuleCard";
-import type { BuilderEvent } from "@/components/atoms/baseShadcn/EventCard";
+import type { Module } from "@/components/molecules/builder/ModuleCard";
+import type { BuilderEvent } from "@/components/molecules/builder/EventCard";
 import type { ScheduleEvent } from "@/types/schedule";
 
 export function isoDateStr(date: Date): string {
